@@ -7,5 +7,5 @@ sudo chown azure:azure /var/run/docker.sock
 sudo systemctl enable docker.service
 sudo systemctl start docker
 docker info
-docker container run  hello-world
+docker container run hello-world
 docker container image pull openjdk:20-slim-buster
